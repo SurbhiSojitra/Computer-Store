@@ -1,0 +1,153 @@
+.heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cartTable {
+    width: 100%;
+    overflow-x: auto;
+    margin-top: 30px;
+}
+
+.cartTable table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.cartTable thead {
+    background: #f4f4f4;
+}
+
+.cartTable th,
+.cartTable td {
+    padding: 12px 16px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    font-size: 15px;
+}
+
+.cartTable th {
+    font-weight: bold;
+}
+
+.cartTable td img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.cartTable tbody tr:hover {
+    background-color: #fafafa;
+}
+
+.action-btns {
+    display: flex;
+    gap: 10px;
+}
+
+.btn-edit,
+.btn-delete {
+    padding: 6px 14px;
+    font-size: 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    text-decoration: none;
+    border: none;
+}
+
+.btn-edit {
+    background: #0d6efd;
+    color: #fff;
+}
+
+.btn-edit:hover {
+    background: #0957c3;
+}
+
+.btn-delete {
+    background: #dc3545;
+    color: #fff;
+}
+
+.btn-delete:hover {
+    background: #b02a37;
+}
+
+
+@media (max-width: 768px) {
+    .cartTable table {
+        font-size: 13px;
+    }
+
+    .cartTable td img {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.buttons a {
+    padding: 10px 20px;
+}
+
+
+.total {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+/* success order page */
+
+.success-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.successcard {
+    width: 500px;
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.successcard h1{
+    font-size: 4rem;
+    color: green;
+}
+.checkdetali {
+    padding: 15px;
+}
+
+.checkoutproducts {
+    display: flex;
+    justify-content: space-between;
+}
+
+.totalcheckout {
+    font-size: 1.5rem;
+}
+
+.shoppingbtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    margin: 0 auto;
+}
